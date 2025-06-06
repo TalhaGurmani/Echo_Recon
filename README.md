@@ -36,11 +36,13 @@ Echo Recon is a lightweight and modular reconnaissance tool designed for red tea
 #bash
 
 git clone https://github.com/TalhaGurmani/Echo_Recon.git
+
 cd Echo_Recon
 
 #Create and activate a virtual environment
 
 python3 -m venv env
+
 source env/bin/activate
 
 # Install dependencies
@@ -83,10 +85,13 @@ python recon.py example.com --whois --dns --subdomains --ports --banner --tech -
 
 # 📚References
 
-OWASP Reconnaissance Guide
-Sublist3r
-Wappalyzer
-Nmap
+- OWASP Reconnaissance Guide
+
+- Sublist3r
+
+- Wappalyzer
+
+- Nmap
 
 # ⚠️Disclaimer
 
